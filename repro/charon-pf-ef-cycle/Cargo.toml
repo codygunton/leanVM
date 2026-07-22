@@ -1,0 +1,14 @@
+[package]
+name = "charon-pf-ef-cycle-repro"
+version = "0.1.0"
+edition = "2024"
+publish = false
+
+[lib]
+name = "charon_pf_ef_cycle_repro"
+path = "src/lib.rs"
+
+[dependencies]
+field = { path = "../../crates/backend/field", package = "field" }
+
+[workspace]
